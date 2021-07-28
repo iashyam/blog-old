@@ -1,0 +1,251 @@
+.heading{
+    background-image: url("image.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #cccccc;
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin: 0px;
+
+}
+
+#subtitle{
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+}
+
+.intro{
+    color: black;
+    font-size: 25pt;
+    font-weight: 400;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#intro {
+text-align: justify;
+text-decoration: wavy;
+border: 2px, solid, black;
+border-radius: 0.01px;
+padding-left: 40px;
+padding-right: 40px;
+font-size: 16pt;
+}
+
+.pagemanu{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pages{
+font-size: larger;
+font-weight: 500;
+color:black;
+background-color: lightslategray;
+text-align: center;
+padding: 5px 2px;
+padding-left: 50px;
+}
+
+h3{
+    
+}
+
+.discr{
+    text-align: justify;
+    font-size: 12pt;
+}
+ #lat_posts{
+    border: black solid 5px;
+    border-radius: 5px;
+    margin: 2em;
+ }
+  
+ #posts_title{
+     padding: 20px;
+     background-color: blueviolet;
+ }
+
+.posts{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+
+
+}
+
+.post_title{
+    text-align: center;
+    font-size: 22pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-weight: 900;
+}
+.post_link{
+    color: blue;
+    text-align: center;
+}
+
+.footer{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+   
+
+}
+    
+
+label{
+    font-size: 25px;
+}
+
+
+form{
+    padding: 1em;
+    margin: 2em;
+    border: black solid 2px;
+    border-radius: 1px;
+}
+input{
+    display: block;
+    width: 80%;
+    padding: 10px ;
+    border: black solid 1px;
+    background-color:gray
+    border: black solid 3px;
+    border-radius: 0px;
+}
+
+
+#button{
+    margin: 10px;
+    background-color: blue;
+    border-radius: 1px;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    width: auto;
+    padding: 5px;
+    
+}
+.bala{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 500;
+    /* background-color: lightslategray; */
+    text-align: left;
+    padding: 5px 2px;
+    padding-left: 50px;
+}
+form{
+    padding: 1em;
+    margin: 2em;
+    border: black solid 2px;
+    border-radius: 1px;
+}
+button:hover{
+    background-color: violet;
+    color: blue;
+}
+
+.about{
+    text-align: center;
+    
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram{
+    background: red;
+    color: white;
+}
+ .fa-youtube{
+     background: #9900cc;
+     color: white;
+ }
+
+ .followmobile{
+     display: none;
+ }
+ .container{
+     padding: 0 4%;
+
+ }
+
+ @media(max-width: 1000px){
+.posts, .footer{
+    grid-template-columns: 1fr;
+}
+.posts{
+    margin-bottom: 2em;
+}
+
+#lat_posts{
+    border: 0;
+    
+    margin: 0;
+}
+
+.about, .bala{
+    display: none;
+}
+
+.followmobile{
+    text-align: center;
+    padding-bottom: 1em;
+    display: inline;
+}
+
+.post_image{
+    display: none;
+}
+
+#intro{
+    padding: 1em;
+}
+
+}
